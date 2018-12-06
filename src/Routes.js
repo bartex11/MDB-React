@@ -49,6 +49,8 @@ import SearchPage from './pages/SearchPage';
 import ValidationPage from './pages/ValidationPage';
 import NavbarPage from './pages/NavbarPage';
 import IframePage from './pages/IframePage';
+import TestPage from './pages_new/TestPage';
+import Background from './pages_new/Background';
 
 class Routes extends React.Component {
   render () {
@@ -63,6 +65,8 @@ class Routes extends React.Component {
         <Route exact path="/tables" component={TablesNavPage} />
         <Route exact path="/modals" component={ModalsNavPage} />
         <Route exact path="/addons" component={AddonsNavPage} />
+        <Route exact path="/test" component={TestPage} />
+        <Route exact path="/background" component={Background} />
 
         {/* FREE */}
         <Route path="/css/animations" component={AnimationPage} />
