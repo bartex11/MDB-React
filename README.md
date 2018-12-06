@@ -1,5 +1,5 @@
 # React Bootstrap with Material Design
-MDBootstrap for React 
+MDBootstrap for React  https://mdbootstrap.com/docs/react/
 
 ## Getting Started
 To test, contribute or just see what we did follow few easy steps:
@@ -20,3 +20,34 @@ We're also open to pull requests
 
 ## Something Missing?
 If you still have some questions do not hesitate to ask us. Open an issue or [visit our Slack](https://mdbbetatest.slack.com)
+
+Material Design for Bootstrap
+
+Version: MDB React Free 4.8.4
+
+Documentation:
+https://mdbootstrap.com/react/
+
+Getting started:
+https://mdbootstrap.com/react/react-bootstrap-getting-started/
+
+FAQ
+https://mdbootstrap.com/faq/
+
+Support:
+https://mdbootstrap.com/support/cat/mdb-react/
+
+ChangeLog
+https://mdbootstrap.com/react/changelog/
+
+License:
+https://mdbootstrap.com/license/
+
+Facebook: https://facebook.com/mdbootstrap
+Twitter: https://twitter.com/MDBootstrap
+Google+: https://plus.google.com/u/0/+Mdbootstrap/posts
+Dribbble: https://dribbble.com/mdbootstrap
+
+
+Contact:
+office@mdbootstrap.com
