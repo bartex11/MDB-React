@@ -31,7 +31,7 @@ class HomePage extends React.Component {
                 <p>React Bootstrap with Material Design</p>
                 <p className="pb-4">
                   This application shows the actual use of MDB React components
-                  in the application.
+                  in the application.YOYOYOY
                 </p>
                 <Row className="d-flex flex-row justify-content-center row">
                   <a
