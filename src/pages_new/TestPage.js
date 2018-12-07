@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 import {
   EdgeHeader,
@@ -18,11 +18,13 @@ import {
   MDBCarouselInner,
   MDBCarouselItem,
   MDBView,
-  MDBMask
+  MDBMask,
+  Animation,
+
+
 } from 'mdbreact';
 
 class TestPage extends Component {
-
   render () {
     return (
       <div>
@@ -57,70 +59,72 @@ class TestPage extends Component {
             </Col>
           </Row>
         </FreeBird>
-        <MDBContainer>
-        <MDBCarousel
-          activeItem={1}
-          length={3}
-          showControls={true}
-          showIndicators={true}
-          className="z-depth-1"
-        >
-          <MDBCarouselInner>
-            <MDBCarouselItem itemId="1">
-              <MDBView>
-                <img
-                  className="d-block w-100"
-                  src="https://mdbootstrap.com/img/Others/documentation/img%20(136)-mini.jpg"
-                  alt="First slide"
-                />
-                <MDBMask overlay="black-light" />
-              </MDBView>
-            </MDBCarouselItem>
-            <MDBCarouselItem itemId="2">
-              <MDBView>
-                <img
-                  className="d-block w-100"
-                  src="https://mdbootstrap.com/img/Others/documentation/img%20(137)-mini.jpg"
-                  alt="Second slide"
-                />
-                <MDBMask overlay="black-strong" />
-              </MDBView>
-            </MDBCarouselItem>
-            <MDBCarouselItem itemId="3">
-              <MDBView>
-                <img
-                  className="d-block w-100"
-                  src="https://mdbootstrap.com/img/Others/documentation/img%20(141)-mini.jpg"
-                  alt="Third slide"
-                />
-                <MDBMask overlay="black-slight" />
-              </MDBView>
-            </MDBCarouselItem>
-          </MDBCarouselInner>
-        </MDBCarousel>
-      </MDBContainer>
+        <MDBContainer style={{marginTop: '3rem'}}>
+          <MDBCarousel
+            activeItem={1}
+            length={3}
+            showControls={true}
+            showIndicators={true}
+            className="z-depth-1"
+          >
+            <MDBCarouselInner>
+              <MDBCarouselItem itemId="1">
+                <MDBView>
+                  <img
+                    className="d-block w-100"
+                    src="https://mdbootstrap.com/img/Others/documentation/img%20(136)-mini.jpg"
+                    alt="First slide"
+                  />
+                  <MDBMask overlay="black-light" />
+                </MDBView>
+              </MDBCarouselItem>
+              <MDBCarouselItem itemId="2">
+                <MDBView>
+                  <img
+                    className="d-block w-100"
+                    src="https://mdbootstrap.com/img/Others/documentation/img%20(137)-mini.jpg"
+                    alt="Second slide"
+                  />
+                  <MDBMask overlay="black-strong" />
+                </MDBView>
+              </MDBCarouselItem>
+              <MDBCarouselItem itemId="3">
+                <MDBView>
+                  <img
+                    className="d-block w-100"
+                    src="https://mdbootstrap.com/img/Others/documentation/img%20(141)-mini.jpg"
+                    alt="Third slide"
+                  />
+                  <MDBMask overlay="black-slight" />
+                </MDBView>
+              </MDBCarouselItem>
+            </MDBCarouselInner>
+          </MDBCarousel>
+        </MDBContainer>
         <Container style={{marginTop: '3rem'}}>
           <Row>
             <Col>
-              <Card reverse style={{width: '22rem'}}>
-                <CardImage
-                  cascade
-                  className="img-fluid"
-                  src="http://bartonization.com/wp-content/uploads/2016/08/1.jpg"
-                  waves
-                />
-                <CardBody cascade>
-                  <CardTitle>Hier in Düsseldorf</CardTitle>
-                  <CardText>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card&apos;s content.
-                  </CardText>
-                  <Button href="#">Button</Button>
-                </CardBody>
-              </Card>
-
+              <Animation type="bounce">
+                <Card reverse style={{width: '22rem'}}>
+                  <CardImage
+                    cascade
+                    className="img-fluid"
+                    src="http://bartonization.com/wp-content/uploads/2016/08/1.jpg"
+                    waves
+                  />
+                  <CardBody cascade>
+                    <CardTitle>Hier in Düsseldorf</CardTitle>
+                    <CardText>
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card&apos;s content.
+                    </CardText>
+                    <Button>Button</Button>
+                  </CardBody>
+                </Card>
+              </Animation>
             </Col>
           </Row>
+      
         </Container>
       </div>
     );

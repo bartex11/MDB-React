@@ -12,15 +12,6 @@ import {
 
 
 class BackgroundImage extends React.Component {
-  state = {
-    collapsed: false,
-  };
-
-  handleTogglerClick = () => {
-    this.setState ({
-      collapsed: !this.state.collapsed,
-    });
-  };
 
   render () {
     
