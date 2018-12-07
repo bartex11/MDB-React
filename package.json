@@ -27,7 +27,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "rename": "renamer --find App-clear.js --replace App.js ./src/App-clear.js",
-    "remove-demo": "rimraf ./src/font ./src/img ./src/pages ./src/Routes.js ./src/App.js && npm run rename"
+    "remove-demo": "rimraf ./src/font ./src/img ./src/pages ./src/Routes.js ./src/App.js && npm run rename",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "renamer": "^1.0.0",
