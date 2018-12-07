@@ -1,7 +1,7 @@
 {
   "main.css": "/MDB-React/static/css/main.d9e96534.chunk.css",
-  "main.js": "/MDB-React/static/js/main.64143557.chunk.js",
-  "main.js.map": "/MDB-React/static/js/main.64143557.chunk.js.map",
+  "main.js": "/MDB-React/static/js/main.3bd557c3.chunk.js",
+  "main.js.map": "/MDB-React/static/js/main.3bd557c3.chunk.js.map",
   "static/css/1.3a3c1adb.chunk.css": "/MDB-React/static/css/1.3a3c1adb.chunk.css",
   "static/js/1.671de601.chunk.js": "/MDB-React/static/js/1.671de601.chunk.js",
   "static/js/1.671de601.chunk.js.map": "/MDB-React/static/js/1.671de601.chunk.js.map",
@@ -9,9 +9,9 @@
   "runtime~main.js.map": "/MDB-React/static/js/runtime~main.9bf309de.js.map",
   "static/media/mdb.css": "/MDB-React/static/media/Roboto-Medium.894a2ede.ttf",
   "static/media/font-awesome.min.css": "/MDB-React/static/media/fontawesome-webfont.fee66e71.woff",
-  "static/css/main.d9e96534.chunk.css.map": "/MDB-React/static/css/main.d9e96534.chunk.css.map",
   "static/css/1.3a3c1adb.chunk.css.map": "/MDB-React/static/css/1.3a3c1adb.chunk.css.map",
+  "static/css/main.d9e96534.chunk.css.map": "/MDB-React/static/css/main.d9e96534.chunk.css.map",
   "index.html": "/MDB-React/index.html",
-  "precache-manifest.9b69e89f97d52fa4b34a9e74cbd32cef.js": "/MDB-React/precache-manifest.9b69e89f97d52fa4b34a9e74cbd32cef.js",
+  "precache-manifest.7f7ac2b130d96fff5b9e927d1ea26874.js": "/MDB-React/precache-manifest.7f7ac2b130d96fff5b9e927d1ea26874.js",
   "service-worker.js": "/MDB-React/service-worker.js"
 }
