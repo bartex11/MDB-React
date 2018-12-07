@@ -26,7 +26,7 @@ class HomePage extends React.Component {
             >
               <CardBody>
                 <h2 className="h2-responsive mb-4">
-                  <strong>MDB React Demo App</strong>
+                  <strong>Wellcome to Bartex MDB React Demo App</strong>
                 </h2>
                 <p>React Bootstrap with Material Design</p>
                 <p className="pb-4">
@@ -36,12 +36,12 @@ class HomePage extends React.Component {
                 <Row className="d-flex flex-row justify-content-center row">
                   <a
                     className="border nav-link border-light rounded mr-1"
-                    href="https://mdbootstrap.com/react/"
+                    href="http://bartonization.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Fa icon="graduation-cap" className="mr-2" />
-                    Official Documentation
+                    <Fa icon="plug" className="mr-2" />
+                    Bartonization page
                   </a>
                 </Row>
               </CardBody>

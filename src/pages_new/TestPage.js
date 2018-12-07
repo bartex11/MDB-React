@@ -66,14 +66,16 @@ class TestPage extends Component {
             showControls={true}
             showIndicators={true}
             className="z-depth-1"
+            
           >
             <MDBCarouselInner>
               <MDBCarouselItem itemId="1">
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="https://mdbootstrap.com/img/Others/documentation/img%20(136)-mini.jpg"
+                    src="http://bartonization.com/wp-content/uploads/2016/08/1.jpg"
                     alt="First slide"
+                    height="490"
                   />
                   <MDBMask overlay="black-light" />
                 </MDBView>

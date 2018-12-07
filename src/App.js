@@ -9,7 +9,7 @@ import {
   Footer,
   NavLink,
 } from 'mdbreact';
-import {BrowserRouter as Router, HashRouter} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 import './index.scss';
 
 import Routes from './Routes';
@@ -49,7 +49,7 @@ class App extends Component {
                   height="20"
                 />
                 {' '}
-                MDB React
+                Bartex React
               </NavbarBrand>
               <NavbarToggler
                 onClick={this.toggleCollapse ('mainNavbarCollapse')}
