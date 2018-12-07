@@ -9,7 +9,7 @@ import {
   Footer,
   NavLink,
 } from 'mdbreact';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {HashRouter as Router,  } from 'react-router-dom';
 import './index.scss';
 
 import Routes from './Routes';
