@@ -39,7 +39,6 @@ class App extends Component {
       />
     );
     return (
-      <HashRouter>
         <Router>
           <div className="flyout">
             <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
@@ -180,7 +179,6 @@ class App extends Component {
             </Footer>
           </div>
         </Router>
-      </HashRouter>
     );
   }
 }
