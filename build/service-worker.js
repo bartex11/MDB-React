@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bartex11/MDB-React/precache-manifest.80735bed1dc80703e08b758f0ae92b01.js"
+  "/bartex11/MDB-React/precache-manifest.4311b24e538d681e696518b93fbbed73.js"
 );
 
 workbox.clientsClaim();
