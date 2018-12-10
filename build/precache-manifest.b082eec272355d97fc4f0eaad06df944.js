@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/MDB-React/static/media/Roboto-Bold.ecdd509c.eot"
   },
   {
-    "revision": "30c85a1532e7945314f2",
+    "revision": "5cfb6aa625018dca0608",
     "url": "/MDB-React/static/css/main.d9e96534.chunk.css"
   },
   {
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/MDB-React/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/MDB-React/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/MDB-React/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/MDB-React/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -64,12 +64,16 @@ self.__precacheManifest = [
     "url": "/MDB-React/static/media/Roboto-Medium.4d9f3f9e.eot"
   },
   {
-    "revision": "30c85a1532e7945314f2",
-    "url": "/MDB-React/static/js/main.30c85a15.chunk.js"
+    "revision": "5cfb6aa625018dca0608",
+    "url": "/MDB-React/static/js/main.5cfb6aa6.chunk.js"
   },
   {
     "revision": "954bbdeb86483e4ffea00c4591530ece",
     "url": "/MDB-React/static/media/Roboto-Thin.954bbdeb.woff2"
+  },
+  {
+    "revision": "574fd0b50367f886d359e8264938fc37",
+    "url": "/MDB-React/static/media/Roboto-Medium.574fd0b5.woff2"
   },
   {
     "revision": "69f8a0617ac472f78e45841323a3df9e",
@@ -78,10 +82,6 @@ self.__precacheManifest = [
   {
     "revision": "2751ee43015f9884c3642f103b7f70c9",
     "url": "/MDB-React/static/media/Roboto-Regular.2751ee43.woff2"
-  },
-  {
-    "revision": "574fd0b50367f886d359e8264938fc37",
-    "url": "/MDB-React/static/media/Roboto-Medium.574fd0b5.woff2"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
@@ -108,16 +108,16 @@ self.__precacheManifest = [
     "url": "/MDB-React/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
-    "revision": "94998475f6aea65f558494802416c1cf",
-    "url": "/MDB-React/static/media/Roboto-Thin.94998475.ttf"
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/MDB-React/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
     "revision": "df7b648ce5356ea1ebce435b3459fd60",
     "url": "/MDB-React/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/MDB-React/static/media/Roboto-Light.46e48ce0.ttf"
+    "revision": "94998475f6aea65f558494802416c1cf",
+    "url": "/MDB-React/static/media/Roboto-Thin.94998475.ttf"
   },
   {
     "revision": "894a2ede85a483bf9bedefd4db45cdb9",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/MDB-React/static/css/1.3a3c1adb.chunk.css"
   },
   {
-    "revision": "39e5e2a6df71ca74e5581168fd8fccfa",
+    "revision": "09eb47aaf6481c91b0162e423e75b62d",
     "url": "/MDB-React/index.html"
   }
 ];
