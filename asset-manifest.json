@@ -1,7 +1,7 @@
 {
   "main.css": "/MDB-React/static/css/main.d9e96534.chunk.css",
-  "main.js": "/MDB-React/static/js/main.30c85a15.chunk.js",
-  "main.js.map": "/MDB-React/static/js/main.30c85a15.chunk.js.map",
+  "main.js": "/MDB-React/static/js/main.5cfb6aa6.chunk.js",
+  "main.js.map": "/MDB-React/static/js/main.5cfb6aa6.chunk.js.map",
   "static/css/1.3a3c1adb.chunk.css": "/MDB-React/static/css/1.3a3c1adb.chunk.css",
   "static/js/1.aa148c61.chunk.js": "/MDB-React/static/js/1.aa148c61.chunk.js",
   "static/js/1.aa148c61.chunk.js.map": "/MDB-React/static/js/1.aa148c61.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/css/1.3a3c1adb.chunk.css.map": "/MDB-React/static/css/1.3a3c1adb.chunk.css.map",
   "static/css/main.d9e96534.chunk.css.map": "/MDB-React/static/css/main.d9e96534.chunk.css.map",
   "index.html": "/MDB-React/index.html",
-  "precache-manifest.cdaa0e03c31c1031c1deb7e6b42d84c0.js": "/MDB-React/precache-manifest.cdaa0e03c31c1031c1deb7e6b42d84c0.js",
+  "precache-manifest.b082eec272355d97fc4f0eaad06df944.js": "/MDB-React/precache-manifest.b082eec272355d97fc4f0eaad06df944.js",
   "service-worker.js": "/MDB-React/service-worker.js"
 }
