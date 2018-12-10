@@ -44,7 +44,7 @@ class App extends Component {
             <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
               <NavbarBrand href="/">
                 <img
-                  src="http://pluspng.com/img-png/bart-simpson-picture-png-image-723.png"
+                  src="/images/bart-simpson-picture-png-image-723.png"
                   alt=""
                   height="40"
                   style={{marginRight: '10px'}}
@@ -168,7 +168,7 @@ class App extends Component {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="http://pluspng.com/img-png/bart-simpson-picture-png-image-723.png"
+                    src="/images/bart-simpson-picture-png-image-723.png"
                     alt=""
                     height="50"
                     style={{marginRight: '10px'}}
