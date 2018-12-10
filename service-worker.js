@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bartex11/MDB-React/precache-manifest.adf8c9c705f49c34c5fb81e0be0a86ad.js"
+  "/MDB-React/precache-manifest.10c2064542837d0836a68e1773f488a2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/bartex11/MDB-React/index.html", {
+workbox.routing.registerNavigationRoute("/MDB-React/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
