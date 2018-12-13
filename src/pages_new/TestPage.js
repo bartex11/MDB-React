@@ -20,8 +20,7 @@ import {
   MDBView,
   MDBMask,
   Animation,
-
-
+  Iframe,
 } from 'mdbreact';
 
 class TestPage extends Component {
@@ -62,25 +61,13 @@ class TestPage extends Component {
         <MDBContainer style={{marginTop: '3rem'}}>
           <MDBCarousel
             activeItem={1}
-            length={3}
-            showControls={true}
-            showIndicators={true}
+            length={2}
+            showControls
+            showIndicators
             className="z-depth-1"
-            
           >
             <MDBCarouselInner>
               <MDBCarouselItem itemId="1">
-                <MDBView>
-                  <img
-                    className="d-block w-100"
-                    src="http://bartonization.com/wp-content/uploads/2016/08/1.jpg"
-                    alt="First slide"
-                    height="490"
-                  />
-                  <MDBMask overlay="black-light" />
-                </MDBView>
-              </MDBCarouselItem>
-              <MDBCarouselItem itemId="2">
                 <MDBView>
                   <img
                     className="d-block w-100"
@@ -90,7 +77,7 @@ class TestPage extends Component {
                   <MDBMask overlay="black-strong" />
                 </MDBView>
               </MDBCarouselItem>
-              <MDBCarouselItem itemId="3">
+              <MDBCarouselItem itemId="2">
                 <MDBView>
                   <img
                     className="d-block w-100"
@@ -126,7 +113,15 @@ class TestPage extends Component {
               </Animation>
             </Col>
           </Row>
-      
+          <Col style={{margin: '3rem auto'}}>
+            <Row>
+              <Iframe
+                title="This is a Bartonization site"
+                src="http://www.bartonization.com/"
+              />
+            </Row>
+          </Col>
+
         </Container>
       </div>
     );

@@ -29,9 +29,9 @@ const BadgePage = props => {
           <h5>
             Heading <Badge color="warning">warning</Badge>
           </h5>
-          <h6>
+          <h1>
             Heading <Badge color="danger">danger</Badge>
-          </h6>
+          </h1>
         </div>
       </div>
     </Container>

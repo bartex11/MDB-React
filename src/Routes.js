@@ -51,6 +51,7 @@ import NavbarPage from './pages/NavbarPage';
 import IframePage from './pages/IframePage';
 import TestPage from './pages_new/TestPage';
 import Background from './pages_new/Background';
+import Tabs from './pages_new/Tabs';
 
 class Routes extends React.Component {
   render () {
@@ -67,6 +68,7 @@ class Routes extends React.Component {
         <Route exact path="/addons" component={AddonsNavPage} />
         <Route exact path="/test" component={TestPage} />
         <Route exact path="/background" component={Background} />
+        <Route exact path="/tabs" component={Tabs} />
 
         {/* FREE */}
         <Route path="/css/animations" component={AnimationPage} />

@@ -9,9 +9,11 @@ import {
   Footer,
   NavLink,
 } from 'mdbreact';
-import {HashRouter as Router,  } from 'react-router-dom';
-import './index.scss';
+import {HashRouter as Router} from 'react-router-dom';
+import {ThemeProvider} from 'styled-components';
 
+import './index.scss';
+import theme from './theme';
 import Routes from './Routes';
 
 class App extends Component {
@@ -39,147 +41,156 @@ class App extends Component {
       />
     );
     return (
-        <Router>
-          <div className="flyout">
-            <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
-              <NavbarBrand href="/">
-                <img
-                  src="/images/bart-simpson-picture-png-image-723.png"
-                  alt=""
-                  height="40"
-                  style={{marginRight: '10px'}}
-                />
-                {' '}
-                Bartex React
-              </NavbarBrand>
-              <NavbarToggler
-                onClick={this.toggleCollapse ('mainNavbarCollapse')}
+      <Router>
+        <div className="flyout">
+          <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
+            <NavbarBrand href="/">
+              <img
+                src="/images/bart-simpson-picture-png-image-723.png"
+                alt=""
+                height="40"
+                style={{marginRight: '10px'}}
               />
-              <Collapse
-                id="mainNavbarCollapse"
-                isOpen={this.state.collapseID}
-                navbar
-              >
-                <NavbarNav>
-                  <NavItem>
-                    <NavLink
-                      exact
-                      to="/"
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                    >
-                      Home
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/css"
-                    >
-                      CSS
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/components"
-                    >
-                      Components
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/advanced"
-                    >
-                      Advanced
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/navigation"
-                    >
-                      Navigation
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/forms"
-                    >
-                      Forms
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/tables"
-                    >
-                      Tables
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/modals"
-                    >
-                      Modals
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/addons"
-                    >
-                      Addons
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/test"
-                    >
-                      Test
-                    </NavLink>
+              {' '}
+              Bartex React
+            </NavbarBrand>
+            <NavbarToggler
+              onClick={this.toggleCollapse ('mainNavbarCollapse')}
+            />
+            <Collapse
+              id="mainNavbarCollapse"
+              isOpen={this.state.collapseID}
+              navbar
+            >
+              <NavbarNav>
+                <NavItem>
+                  <NavLink
+                    exact
+                    to="/"
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                  >
+                    Home
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/test"
+                  >
+                    Test
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/tabs"
+                  >
+                    Tabs
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/css"
+                  >
+                    CSS
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/components"
+                  >
+                    Components
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/advanced"
+                  >
+                    Advanced
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/navigation"
+                  >
+                    Navigation
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/forms"
+                  >
+                    Forms
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/tables"
+                  >
+                    Tables
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/modals"
+                  >
+                    Modals
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/addons"
+                  >
+                    Addons
+                  </NavLink>
+                </NavItem>
 
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      onClick={this.closeCollapse ('mainNavbarCollapse')}
-                      to="/background"
-                    >
-                      BgImage
-                    </NavLink>
-                  </NavItem>
-                </NavbarNav>
-              </Collapse>
-            </Navbar>
-            {this.state.collapseID && overlay}
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/background"
+                  >
+                    BgImage
+                  </NavLink>
+                </NavItem>
+              </NavbarNav>
+            </Collapse>
+          </Navbar>
+          {this.state.collapseID && overlay}
+          <ThemeProvider theme={theme}>
             <main className="content">
               <Routes />
             </main>
-
-            <Footer>
-              <p className="footer-copyright mb-0 py-3 text-center">
-                &copy; 2016 Copyright:{' '}
-                <a
-                  href="http://www.bartonization.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="/images/bart-simpson-picture-png-image-723.png"
-                    alt=""
-                    height="50"
-                    style={{marginRight: '10px'}}
-                  />
-                  Bartonization
-                  {' '}
-                </a>
-              </p>
-            </Footer>
-          </div>
-        </Router>
+          </ThemeProvider>
+          <Footer>
+            <p className="footer-copyright mb-0 py-3 text-center">
+              &copy; 2016 Copyright:{' '}
+              <a
+                href="http://www.bartonization.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/images/bart-simpson-picture-png-image-723.png"
+                  alt=""
+                  height="50"
+                  style={{marginRight: '10px'}}
+                />
+                Bartonization
+                {' '}
+              </a>
+            </p>
+          </Footer>
+        </div>
+      </Router>
     );
   }
 }
