@@ -1,14 +1,19 @@
-import React from 'react'
-import styled from 'styled-components'
+import * as React from 'react';
+import styled from 'styled-components';
 
-// Apply styles to h1
-const StyledTitle = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`
+const Wrapper = styled.h1`
+  margin-top: 110px;
+  margin-bottom: 0;
+`;
 
-const TitleComponent = props =>
-  <StyledTitle className={props.className}>{props.children}</StyledTitle>
+export default props => {
+  const WrapperWithAnotherTag = props.as && props.as !== 'h1'
+    ? Wrapper.withComponent (props.as)
+    : Wrapper;
 
-export default TitleComponent
+  return (
+    <WrapperWithAnotherTag className={props.className}>
+      {props.children}
+    </WrapperWithAnotherTag>
+  );
+};

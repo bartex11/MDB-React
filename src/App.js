@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <Router>
         <div className="flyout">
-          <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
+          <Navbar color="indigo" dark expand="lg" fixed="top" double scrolling>
             <NavbarBrand href="/">
               <img
                 src="/images/bart-simpson-picture-png-image-723.png"
